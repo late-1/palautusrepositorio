@@ -1,5 +1,5 @@
 # tehdään alussa importit
-
+# tehtävä 14 muutos
 from logger import logger
 from summa import summa
 from erotus import erotus
