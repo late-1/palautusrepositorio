@@ -19,6 +19,8 @@
 
 5. Löysikö Pylint agentin koodista virheitä?
 
-    Kyllä. Pylint löysi agentin aiemmin tuottamasta koodista ylimääräisiä tyhjiä lyöntejä (trailing whitespace), tiedostojen lopusta puuttuvia tyhjiä rivejä, importtien järjestysvirheitä, liian pitkän main-funktion (Too many statements) sekä dict-varatun sanan käytön parametrinä ja API-pyynnön puuttuvan timeoutin.
+    Kyllä. Pylint löysi agentin aiemmin tuottamasta koodista ylimääräisiä tyhjiä lyöntejä (trailing whitespace), tiedostojen lopusta puuttuvia tyhjiä rivejä, importtien järjestysvirheitä, liian pitkän main-funtion (Too many statements) sekä dict-varatun sanan käytön parametrinä ja API-pyynnön puuttuvan timeoutin.
 
-6. Mitä muuta opit?
+6. Mitä muuta opit
+
+    Opin agenttien käytöstä ja muutosten tarkastelun tärkeydestä. 
