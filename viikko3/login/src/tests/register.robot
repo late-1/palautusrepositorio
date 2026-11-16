@@ -26,6 +26,18 @@ Register With Valid Username And Too Short Password
     Click  button >> text=Register
     Register Should Fail With Message  Password must be at least 8 characters long
 
+Register With Nonmatching Passwords
+    Set Username  mikko
+    Set Password  salasana123
+    Set Password Confirmation  salasana321
+    Click  button >> text=Register
+    Register Should Fail With Message  Passwords do not match
+
+Register Without Username Or Password
+    Set Password Confirmation  salasana123
+    Click  button >> text=Register
+    Register Should Fail With Message  Username and password are required
+
 Register With Username That Is Already In Use
     Set Username  kalle
     Set Password  salasana123
