@@ -24,6 +24,5 @@ class TestOstoskori(unittest.TestCase):
         maito = Tuote("Maito", 3)
         leipa = Tuote("Leipä", 4)
         self.kori.lisaa_tuote(maito)
-        self.kori.lisaa_tuote(leipa)    
-        self.assertEqual(self.kori.tavaroita_korissa(), 2)
+        self.kori.lisaa_tuote(leipa)
         self.assertEqual(self.kori.tavaroita_korissa(), 2)
